@@ -37,7 +37,8 @@ public class MathUtility {
         
         //sống sót đến lệnh dưới đây, sure n = 2..20
         long product = 1; //tích nhân dồn!!!
-        for (int i = 2; i < n; i++) //make the code wrong!!
+        for (int i = 2; i <= n; i++) //make the code wrong!!
+                        //make the code green again and 4ever   
             product *= i;
         
         return product;
